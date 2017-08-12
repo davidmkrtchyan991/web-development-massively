@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* ---GENERAL--- */
+
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	font-family: "Merriweather", Georgia, serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2.375;
+}
+
+.wrapper {
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	overflow: hidden;
+}
+
+/* --- HEADER --- */
+
+.header {
+	color: #ffffff;
+}
+
+.header-huge-title {
+	font-size: 70px;
+	margin-top: 145px;
+}
+
+.header-text {
+	width: 710px;
+	margin: 0 auto;
+}
+
+.arrow-icon {
+	border: 2px solid #ffffff;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin: 40px auto 80px;
+	text-align: center;
+	outline:none;
+}
+
+.arrow-icon i {
+	line-height: 70px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.arrow-icon:hover {
+	border-color: #18bfef;
+	transition: .5s;
+}
+
+.fa-arrow-down:hover {
+	color: #18bfef;
+	transition: 1.8s;
+}
+
+.fa-arrow-down {
+	color: #fff;
+}
+
+/* --- END OF HEADER --- */
+
+/* --- CONTAINER --- */
+
+.container {
+	width: 1150px;
+	margin: 0 auto;
+	outline: 1px solid white;
+}
+
+.container-top-bar {
+	color: #fff;
+	max-width: 100%;
+	height: 65px;
+	outline: 1px dashed pink;
+}
+
+.container-top-bar-nav {
+	float: left;
+}
+
+.container-top-bar-nav ul li {
+	float: left;
+	line-height: 65px;
+	padding: 0 15px;
+	outline: 1px solid yellow; 
+}
+
+.container-top-bar-social {
+	line-height: 65px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
