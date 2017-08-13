@@ -1,15 +1,198 @@
 /*-----------------------
 	General Styles start
 -------------------------*/
+/*----Source Sans Pro font-family start----*/
 @font-face {
-  font-family: 'Georgia';
-  src: url('../fonts/merriweather_regular.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/merriweather_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/merriweather_regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/merriweather_regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/merriweather_regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/merriweather_regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansProExtraLight.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansProExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceSansProExtraLight.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/SourceSansProExtraLight.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SourceSansProExtraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceSansProExtraLight.svg#Source Sans Pro') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 200;  
 }
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansProExtraLightItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansProExtraLightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceSansProExtraLightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/SourceSansProExtraLightItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SourceSansProExtraLightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceSansProExtraLightItalic.svg#Source Sans Pro') format('svg'); /* Legacy iOS */
+	font-style: italic;
+	font-weight: 200;  
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansProLight.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansProLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceSansProLight.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/SourceSansProLight.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SourceSansProLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceSansProLight.svg#Source Sans Pro') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 300;  
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansProLightItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansProLightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceSansProLightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/SourceSansProLightItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SourceSansProLightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceSansProLightItalic.svg#Source Sans Pro') format('svg'); /* Legacy iOS */
+	font-style: italic;
+	font-weight: 300;  
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansProRegular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansProRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceSansProRegular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/SourceSansProRegular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SourceSansProRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceSansProRegular.svg#Source Sans Pro') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 400;  
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansProItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansProItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceSansProItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/SourceSansProItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SourceSansProItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceSansProItalic.svg#Source Sans Pro') format('svg'); /* Legacy iOS */
+	font-style: italic;
+	font-weight: 400;  
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansProSemiBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansProSemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceSansProSemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/SourceSansProSemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SourceSansProSemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceSansProSemiBold.svg#Source Sans Pro') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 600;  
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansProBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansProBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceSansProBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/SourceSansProBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SourceSansProBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceSansProBold.svg#Source Sans Pro') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 700;  
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansProBlack.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansProBlack.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceSansProBlack.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/SourceSansProBlack.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SourceSansProBlack.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceSansProBlack.svg#Source Sans Pro') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 900;  
+}
+/*----Source Sans Pro font-family end----*/
+
+/*----Merriweather font-family start----*/
+	@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather/MerriweatherLight.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/merriweather/MerriweatherLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather/MerriweatherLight.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather/MerriweatherLight.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/merriweather/MerriweatherLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather/MerriweatherLight.svg#Merriweather') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 300;  
+}
+	@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather/MerriweatherLightItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/merriweather/MerriweatherLightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather/MerriweatherLightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather/MerriweatherLightItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/merriweather/MerriweatherLightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather/MerriweatherLightItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
+	font-style: italic;
+	font-weight: 300;  
+}
+	@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather/MerriweatherRegular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/merriweather/MerriweatherRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather/MerriweatherRegular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather/MerriweatherRegular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/merriweather/MerriweatherRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather/MerriweatherRegular.svg#Merriweather') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 400;  
+}
+	@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather/MerriweatherItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/merriweather/MerriweatherItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather/MerriweatherItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather/MerriweatherItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/merriweather/MerriweatherItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather/MerriweatherItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
+	font-style: italic;
+	font-weight: 400;  
+}
+	@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather/MerriweatherBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/merriweather/MerriweatherBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather/MerriweatherBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather/MerriweatherBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/merriweather/MerriweatherBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather/MerriweatherBold.svg#Merriweather') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 700;  
+}
+	@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather/MerriweatherBoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/merriweather/MerriweatherBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather/MerriweatherBoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather/MerriweatherBoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/merriweather/MerriweatherBoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather/MerriweatherBoldItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
+	font-style: italic;
+	font-weight: 700;  
+}
+	@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather/MerriweatherBlack.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/merriweather/MerriweatherBlack.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather/MerriweatherBlack.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather/MerriweatherBlack.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/merriweather/MerriweatherBlack.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather/MerriweatherBlack.svg#Merriweather') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 900;  
+}
+	@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather/MerriweatherBlackItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/merriweather/MerriweatherBlackItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather/MerriweatherBlackItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather/MerriweatherBlackItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/merriweather/MerriweatherBlackItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather/MerriweatherBlackItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
+	font-style: italic;
+	font-weight: 900;  
+}
+/*----Merriweather Pro font-family end----*/
 
 * {
     box-sizing: border-box;
@@ -19,8 +202,8 @@
     outline: 0;
 }
 body {
-	font-family: "Merriweather", Georgia, serif;
-	color: #fff;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	color: #676d79;
 	
 }
 .page-wrapper {
@@ -36,7 +219,6 @@ body {
 header, section, footer, aside, nav, main, article, figure {
 		display: block; 
 }
-
 
 .page-width {
 	width: 1152px;
@@ -62,25 +244,34 @@ header {
 	height: 582px;
 	padding-top: 143px;
 	text-align: center;
+	color: #fff;
 }
-.sec-title {
-	font-size: 48px;
-	width: 300px;
-	margin: 0 auto 42px;
-	text-transform: uppercase;
+.page-title {
+    font-size: 83px;
+    width: 438px;
+    margin: 0 auto 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 76px;
+    letter-spacing: 4px;
 }
-.sec-text {
+.page-intro {
+	font-family: 'Merriweather', "Times New Roman", serif;
 	width: 790px;
-	font-size: 18px;
+	font-size: 19px;
 	margin: 0 auto 48px;
-	line-height: 30px;
+	line-height: 34px;
+    font-style: italic;
+    font-weight: 400;
 }
-.sec-text a {
+.page-intro a {
 	color: #fff;
 	border-bottom: 1px dotted #fff;
+	transition: all 0.5s;
 }
-.sec-text a:hover {
+.page-intro a:hover {
 	color: #18bfef;
+	border-bottom: none;
 }
 .scr-down-btn {
 	display: block;
@@ -93,10 +284,11 @@ header {
 	margin: 0 auto;
 	font-size: 20px;
 	color: #fff;
+	transition: all 0.4s;
 }
 .scr-down-btn:hover {
 	color: #18bfef;
-	border-color: #18bfef;;
+	border-color: #18bfef;
 }
 
 /*-------------
@@ -106,10 +298,9 @@ header {
 /*------------------
 	Navigation start
 --------------------*/
-.navigation .page-width {
-	height: 53px;
+.navigation-inner {
+	height: 64px;
 	background: rgba(0,0,0, 0.2);
-
 }
 nav {
 	float: left;
@@ -119,23 +310,23 @@ nav ul li {
 }
 nav ul li a {
 	font-size: 14px;
-	color: #fff;
-	display: inline-block;
-	padding: 18px 20px;
-	cursor: pointer;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    padding: 23px 20px;
 }
 nav ul li a:hover {
 	background: rgba(255,255,255,0.3);
 }
 .social {
 	float: right;
-	padding-top: 15px;
+	padding-top: 18px;
+	margin-right: 25px;
 }
 .social a {
-	font-size: 18px;
+	font-size: 21px;
 	color: #fff;
-	margin: 0 10px;
-	cursor: pointer;
+	margin: 0 17px;	
 }
 .social a:hover {
 	color: #18bfef;
@@ -146,7 +337,7 @@ nav ul li a:hover {
 /*----------------
 	Headline start
 ------------------*/
-.headline {
+/*.headline {
 	background: #fff;
 	height: 4440px;
 }
@@ -157,7 +348,7 @@ nav ul li a:hover {
 	margin: 0 auto;
 
 
-}
+}*/
 
 /*----------------
 	Headline end
