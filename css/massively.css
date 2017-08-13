@@ -20,7 +20,7 @@
 }
 body {
 	font-family: "Merriweather", Georgia, serif;
-	color: #fff;
+    color: #676d79;
 	
 }
 .page-wrapper {
@@ -49,6 +49,9 @@ ul {
 }
 a {
 	text-decoration: none;
+}
+.effect {
+	
 }
 /*---------------------
 	General Styles end
@@ -109,7 +112,6 @@ header {
 .navigation .page-width {
 	height: 53px;
 	background: rgba(0,0,0, 0.2);
-
 }
 nav {
 	float: left;
@@ -143,22 +145,37 @@ nav ul li a:hover {
 /*----------------
 	Navigation end
 ------------------*/
-/*----------------
-	Headline start
-------------------*/
-.headline {
-	background: #fff;
-	height: 4440px;
+
+/*-------------------------------
+	Navigation pages start
+---------------------------------*/
+.navigation-pages {
+	position: relative;
 }
-.inner {
-	border-right: 10px solid yellow;
-	border-left: 10px solid yellow;
-	width: 500px;
-	margin: 0 auto;
-
-
+/*-----------------
+	Massively start
+------------------*/
+.massively {
+	background-color: #fff;
+	height: 2000px;
+	padding-top: 100px;
+}
+.date {
+	text-align: center;
+	font-size: 16px;
+	border-bottom: 2px solid #eee;
+	line-height: 2px;
+	width: 900px;
+	margin: 1px auto;
+}
+.date span {
+	background-color: #fff;
+	padding: 0 50px;
 }
 
-/*----------------
-	Headline end
-------------------*/
+/*---------------
+	Massively end
+-----------------*/
+/*-------------------------------
+	Navigation pages end
+---------------------------------*/
