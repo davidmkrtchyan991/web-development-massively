@@ -236,10 +236,17 @@ a {
 	text-decoration: none;
 }
 .effect {  
-  transition: color 0.3s;
+  transition: color 0.2s;
 }
 .effect:hover {
   color: #18bfef;
+}
+.brd-effect {
+  transition: all 0.2s;
+}
+.brd-effect:hover {
+  color: #18bfef;
+  border-color: #18bfef;
 }
 .image-effect:hover a {
   transform: scale(1.2);
@@ -285,6 +292,13 @@ a.image-pos:hover  {
 .btn-effect:hover {
   color: #18bfef;
   border-color: #18bfef;
+}
+.brd-bottom {
+  border-bottom: 1px dotted #717981;
+  transition: all 0.2s;
+}
+.brd-bottom:hover {
+  border-bottom-color: transparent;
 }
 /*---------------------
 	General Styles end
@@ -386,6 +400,9 @@ nav ul li a:hover {
 .social a:hover {
 	color: #18bfef;
 }
+.footer social {
+
+}
 /*----------------
 	Navigation end
 ------------------*/
@@ -400,7 +417,7 @@ nav ul li a:hover {
 ------------------*/
 .massively {
   background-color: #fff;
-  height: 3573px;
+  height: 3741px;
   padding-top: 100px;
   text-align: center;
 }
@@ -494,10 +511,154 @@ nav ul li a:hover {
 .masgal-section-btn {
   padding: 4px 35px;
 }
-
+.pagination {
+  display: inline-block;
+  text-align: center;
+  margin-top: 62px;
+}
+.pagination a {
+    color: #212931;; 
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 4px 17px;
+    border: 2px solid #eee;
+    transition: all 0.2s;
+}
+.pagination a.active {
+    background-color: #eee;    
+}
+.pagination a:not(:last-child) {
+  border-right: none;
+}
+.pagination a:hover {
+  color: #18bfef;
+  border-color: #18bfef;  
+}
+.pagination a:hover + a {
+  border-left-color: #18bfef;
+}
 /*---------------
   Massively end
 -----------------*/
 /*-------------------------------
   Navigation pages end
 ---------------------------------*/
+/*---------------
+  Footer start
+-----------------*/
+.footer-inner {
+  background-color: #f5f5f5;
+  height: 586px;   
+}
+.form {
+  width: 50%;
+  float: left;
+  padding: 70px 0 0 60px;
+ }
+.form-item {
+  width: 448px;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 10px 4px;
+  border: 2px solid #eee;
+  color: #717981;
+  background-color: #f5f5f5;
+}
+.form-item:focus {
+  border-color: #18bfef;
+}
+.form span {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 10px 0;  
+  display: inline-block;
+}
+textarea {
+  height: 138px;
+  resize: none;
+}
+.form-btn {
+  font-size: 12px;
+  letter-spacing: 0;
+  font-weight: 900;
+  background-color: #f5f5f5;
+  margin-top: 22px;
+  padding: 12px 19px;
+  cursor: pointer;
+}
+.contact-table {
+  width: 50%;
+  height: 100%;
+  padding-top: 70px;  
+  float: right;
+  border-left: 2px solid #eee;
+  text-align: left;  
+}
+.contact-table a {
+  color: #909498;
+}
+.contact-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.contact-table tr:not(:last-child) {
+  border-bottom: 2px solid #eee;
+}
+.contact-table tr {  
+  height: 124px;
+}
+.zip-contact {
+  vertical-align: top;
+}
+.contact-table th {
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 60px;  
+}
+.contact-table td {
+  font-size: 16px;
+  color: #909498;
+  padding-left: 43px;
+}
+.footer-social a {
+  display: inline-block;
+  font-size: 16px;
+  width: 42px;
+  height: 42px;
+  border: 2px solid #e2e2e2;
+  text-align: center;
+  line-height: 39px;  
+  border-radius: 50%;
+  margin-right: 12px;
+}
+/*---------------
+  Footer end
+-----------------*/
+/*---------------
+  Copyright start
+-----------------*/
+.copyright {
+  background-color: transparent;
+  height: 210px;
+  padding-top: 40px;
+  text-align: center;
+}
+.copyright ul li {
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.4;
+  font-weight: 700;
+  line-height: 11px;
+  padding: 0 20px;  
+}
+.copyright ul li a {
+  color: #fff; 
+}
+.copyright ul li:not(:last-child) {
+  border-right: 2px solid #e2e2e2;
+}
+/*---------------
+  Copyright end
+-----------------*/
