@@ -203,13 +203,16 @@
 }
 body {
 	font-family: 'Source Sans Pro', Arial, sans-serif;
-	color: #676d79;
+	color: #212931;
+  line-height: 32px;
 	
 }
 .page-wrapper {
+	width: 100%;
+	height: 100%;
 	margin: 0;
-	background: url("../images/bg.jpg");
-
+	background: url("../images/bg.jpg") no-repeat top center fixed;
+	background-size: cover;
 }
 /*
 * - For W3C compliant CSS: If you define the color property, you must also define the background-color.
@@ -232,6 +235,57 @@ ul {
 a {
 	text-decoration: none;
 }
+.effect {  
+  transition: color 0.3s;
+}
+.effect:hover {
+  color: #18bfef;
+}
+.image-effect:hover a {
+  transform: scale(1.2);
+}
+.sec-title {
+  width: 620px;
+  letter-spacing: 3px;
+  margin: 70px auto 60px;
+  line-height: 48px;
+}
+.sec-title-link {
+  font-size: 62px;
+  color: #212931;
+  font-weight: 900;
+}
+.sec-intro {
+  width: 491px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.image-pos {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transition: all 0.3s ease;
+  display: block;
+}
+a.image-pos:hover  {
+  transform: scale(1.05);
+}
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: 2px solid #212931;
+  font-weight: 700;  
+  letter-spacing: 1px;
+  color: #212931;
+}
+.btn-effect {
+  transition: all 0.3s;
+}
+.btn-effect:hover {
+  color: #18bfef;
+  border-color: #18bfef;
+}
 /*---------------------
 	General Styles end
 -----------------------*/
@@ -247,13 +301,13 @@ header {
 	color: #fff;
 }
 .page-title {
-    font-size: 83px;
-    width: 438px;
-    margin: 0 auto 30px;
-    text-transform: uppercase;
-    font-weight: 900;
-    line-height: 76px;
-    letter-spacing: 4px;
+  font-size: 83px;
+  width: 438px;
+  margin: 0 auto 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 3px;
 }
 .page-intro {
 	font-family: 'Merriweather', "Times New Roman", serif;
@@ -261,8 +315,8 @@ header {
 	font-size: 19px;
 	margin: 0 auto 48px;
 	line-height: 34px;
-    font-style: italic;
-    font-weight: 400;
+  font-style: italic;
+  font-weight: 400;
 }
 .page-intro a {
 	color: #fff;
@@ -306,14 +360,15 @@ nav {
 	float: left;
 }
 nav ul li {
-	display: inline-block;
+	float: left;
 }
 nav ul li a {
-	font-size: 14px;
-    font-weight: 700;
-    color: #fff;
-    display: inline-block;
-    padding: 23px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  display: inline-block;
+  padding: 16px 20px;
+  transition: all 0.4s;
 }
 nav ul li a:hover {
 	background: rgba(255,255,255,0.3);
@@ -334,22 +389,115 @@ nav ul li a:hover {
 /*----------------
 	Navigation end
 ------------------*/
-/*----------------
-	Headline start
-------------------*/
-/*.headline {
-	background: #fff;
-	height: 4440px;
+/*-------------------------------
+  Navigation pages start
+---------------------------------*/
+.navigation-pages {
+  position: relative;
 }
-.inner {
-	border-right: 10px solid yellow;
-	border-left: 10px solid yellow;
-	width: 500px;
-	margin: 0 auto;
-
-
-}*/
-
-/*----------------
-	Headline end
+/*-----------------
+  Massively start
 ------------------*/
+.massively {
+  background-color: #fff;
+  height: 3573px;
+  padding-top: 100px;
+  text-align: center;
+}
+.date {
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 2px solid #eee;
+  line-height: 2px;
+  width: 900px;
+  margin: 1px auto;
+}
+.date span {
+  background-color: #fff;
+  padding: 0 50px;
+}
+.massively-banner {
+  width: 896px;
+  height: 436px; 
+  margin: 60px auto 64px;
+  overflow: hidden;
+}
+.massively-banner a {
+  background-image: url("../images/pic01.jpg");
+}
+.massiv-section-btn {
+  padding: 4px 48px;
+}
+.massively-gallery {
+  margin-top: 110px;
+}
+.masgal-section {
+  width: 576px;
+  height: 800px;
+  float: left;
+  text-align: center;
+  border-top: 2px solid #eee;
+  padding-top: 74px;
+}
+.masgal-section * {
+  margin: 0 auto;
+}
+.masgal-section:nth-child(even) {
+  border-left: 2px solid #eee;
+}
+.masgal-section:nth-last-child(-n+2) {
+  border-bottom: 2px solid #eee;
+}
+.masgal-section-image {
+  width: 450px;
+  height: 274px;
+  overflow: hidden;
+}
+.car a {
+  background-image: url("../images/pic02.jpg");
+}
+.man-street a {
+  background-image: url("../images/pic03.jpg");
+}
+.photo-camera a {
+  background-image: url("../images/pic04.jpg");
+}
+.mountain a {
+  background-image: url("../images/pic05.jpg");
+}
+.man a {
+  background-image: url("../images/pic06.jpg");
+}
+.suv a {
+  background-image: url("../images/pic07.jpg");
+}
+.masgal-section-date {
+  font-size: 14px;
+}
+.masgal-section-title {
+  width: 262px;
+  margin: 13px auto 38px;
+}
+.masgal-section-title a {
+  color: #212931;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.gal-text {
+    font-size: 19px;
+    width: 447px;
+    text-align: left;
+    font-weight: 300;
+    margin: 27px auto 56px;
+}
+.masgal-section-btn {
+  padding: 4px 35px;
+}
+
+/*---------------
+  Massively end
+-----------------*/
+/*-------------------------------
+  Navigation pages end
+---------------------------------*/
