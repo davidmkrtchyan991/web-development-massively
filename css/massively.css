@@ -252,10 +252,14 @@ a {
   transform: scale(1.2);
 }
 .sec-title {
-  width: 620px;
+ width: 542px;
   letter-spacing: 3px;
-  margin: 70px auto 60px;
-  line-height: 48px;
+  margin: 70px auto 43px;
+  line-height: 62px;
+  font-size: 62px;
+  color: #212931;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 .sec-title-link {
   font-size: 62px;
@@ -266,6 +270,13 @@ a {
   width: 491px;
   margin: 0 auto;
   font-size: 18px;
+}
+.sec-text {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 300;
+  width: 890px;
+  margin: 37px auto;
 }
 .image-pos {
   width: 100%;
@@ -387,6 +398,9 @@ nav ul li a {
 nav ul li a:hover {
 	background: rgba(255,255,255,0.3);
 }
+.elements-nav {
+  cursor: not-allowed;
+}
 .social {
 	float: right;
 	padding-top: 18px;
@@ -399,9 +413,6 @@ nav ul li a:hover {
 }
 .social a:hover {
 	color: #18bfef;
-}
-.footer social {
-
 }
 /*----------------
 	Navigation end
@@ -419,7 +430,13 @@ nav ul li a:hover {
   background-color: #fff;
   height: 3741px;
   padding-top: 100px;
-  text-align: center;
+  text-align: center;    
+}
+.massively-title {
+  width: 620px;
+  letter-spacing: 3px;
+  margin: 70px auto 60px;
+  line-height: 48px;
 }
 .date {
   text-align: center;
@@ -541,6 +558,28 @@ nav ul li a:hover {
 /*---------------
   Massively end
 -----------------*/
+
+/*--------------
+  Generic start
+----------------*/
+.generic {
+  background-color: #fff;
+  height: 1580px;
+  padding-top: 100px;
+  text-align: center;
+  display: none;
+}
+.generic-banner {
+  width: 896px;
+  height: 436px; 
+  margin: 60px auto 64px;
+  background-image: url("../images/pic01.jpg");
+  background-size: cover;
+}
+
+/*------------
+  Generic end
+--------------*/
 /*-------------------------------
   Navigation pages end
 ---------------------------------*/
