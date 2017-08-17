@@ -366,10 +366,19 @@
 					<hr class="line"/>
 					<div class="elements-form">
 						<h2>FORM</h2>
-						<form action="/action_page.php" method="post" autocomplete="off">					
-							<input type="text" name="fname" placeholder="Name" maxlength="25" required="required"/><br/>				
-							<input type="text" name="email" placeholder="Email" maxlength="45" required="required"/><br/>				
-							<textarea name="textarea" maxlength="200" required="required"></textarea><br/>
+						<form class="message-form" action="/action_page.php" method="post" autocomplete="off">					
+							<input type="text" class="form-item" name="fname" placeholder="Name" maxlength="25" required="required"/>				
+							<input type="text" class="form-item" name="email" placeholder="Email" maxlength="45" required="required"/><br/>
+							<div class="select-wrapper data-icon="&#xf0d7">
+							 <select name="categories" class="elements-text">
+    							<option value="category">&#8212; Category &#8212;</option>
+    							<option value="manufacturing">Manufacturing</option>
+    							<option value="manufacturing">Shipping</option>
+    							<option value="manufacturing">Administration</option>
+    							<option value="manufacturing">Human Resources</option>
+  							</select><br/>
+							</div>
+							<textarea class="form-item" name="textarea" maxlength="200" required="required"></textarea><br/>
 							<input class="btn form-btn brd-effect" type="submit" value="SEND MESSAGE"/>
 							<input class="btn form-btn brd-effect" type="submit" value="RESET"/>
 						</form>	

@@ -844,6 +844,40 @@ nav ul li a:hover {
   opacity: 0.2;
   cursor: default;
 }
+.message-form input[type="text"] {
+  width: 49%;  
+}
+.message-form input[name="fname"] {
+  margin-right: 14px;
+}
+[name="categories"] {
+  width: 100%;
+  padding:9px 147px 6px 12px;
+  -webkit-appearance:none;
+     -moz-appearance:none;   
+          appearance:none;
+
+}
+.select-wrapper {
+  position: relative;
+}
+.select-wrapper:before {
+    content: attr(data-icon);
+    font-family: "FontAwesome"; 
+    display: block;
+    height: 3rem;
+    line-height: 3rem;
+    pointer-events: none;
+    position: absolute;
+    right: 13px;
+    text-align: center;
+    top: -6px;
+    
+    
+}
+
+
+
 
 /*------------
   Elements end
@@ -881,7 +915,7 @@ nav ul li a:hover {
   margin: 10px 0;  
   display: inline-block;
 }
-textarea {
+.form textarea {
   height: 138px;
   resize: none;
 }
