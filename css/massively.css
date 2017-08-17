@@ -104,93 +104,94 @@
 /*----Source Sans Pro font-family end----*/
 
 /*----Merriweather font-family start----*/
-	@font-face {
-  font-family: 'Merriweather';
-  src: url('../fonts/merriweather/MerriweatherLight.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/merriweather/MerriweatherLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/merriweather/MerriweatherLight.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/merriweather/MerriweatherLight.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/merriweather/MerriweatherLight.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/merriweather/MerriweatherLight.svg#Merriweather') format('svg'); /* Legacy iOS */
-	font-style: normal;
-	font-weight: 300;  
+@font-face {
+font-family: 'Merriweather';
+src: url('../fonts/merriweather/MerriweatherLight.eot'); /* IE9 Compat Modes */
+src: url('../fonts/merriweather/MerriweatherLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/merriweather/MerriweatherLight.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/merriweather/MerriweatherLight.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/merriweather/MerriweatherLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/merriweather/MerriweatherLight.svg#Merriweather') format('svg'); /* Legacy iOS */
+font-style: normal;
+font-weight: 300;  
 }
-	@font-face {
-  font-family: 'Merriweather';
-  src: url('../fonts/merriweather/MerriweatherLightItalic.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/merriweather/MerriweatherLightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/merriweather/MerriweatherLightItalic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/merriweather/MerriweatherLightItalic.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/merriweather/MerriweatherLightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/merriweather/MerriweatherLightItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
-	font-style: italic;
-	font-weight: 300;  
+
+@font-face {
+font-family: 'Merriweather';
+src: url('../fonts/merriweather/MerriweatherLightItalic.eot'); /* IE9 Compat Modes */
+src: url('../fonts/merriweather/MerriweatherLightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/merriweather/MerriweatherLightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/merriweather/MerriweatherLightItalic.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/merriweather/MerriweatherLightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/merriweather/MerriweatherLightItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
+font-style: italic;
+font-weight: 300;  
 }
-	@font-face {
-  font-family: 'Merriweather';
-  src: url('../fonts/merriweather/MerriweatherRegular.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/merriweather/MerriweatherRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/merriweather/MerriweatherRegular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/merriweather/MerriweatherRegular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/merriweather/MerriweatherRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/merriweather/MerriweatherRegular.svg#Merriweather') format('svg'); /* Legacy iOS */
-	font-style: normal;
-	font-weight: 400;  
+@font-face {
+font-family: 'Merriweather';
+src: url('../fonts/merriweather/MerriweatherRegular.eot'); /* IE9 Compat Modes */
+src: url('../fonts/merriweather/MerriweatherRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/merriweather/MerriweatherRegular.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/merriweather/MerriweatherRegular.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/merriweather/MerriweatherRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/merriweather/MerriweatherRegular.svg#Merriweather') format('svg'); /* Legacy iOS */
+font-style: normal;
+font-weight: 400;  
 }
-	@font-face {
-  font-family: 'Merriweather';
-  src: url('../fonts/merriweather/MerriweatherItalic.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/merriweather/MerriweatherItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/merriweather/MerriweatherItalic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/merriweather/MerriweatherItalic.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/merriweather/MerriweatherItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/merriweather/MerriweatherItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
-	font-style: italic;
-	font-weight: 400;  
+@font-face {
+font-family: 'Merriweather';
+src: url('../fonts/merriweather/MerriweatherItalic.eot'); /* IE9 Compat Modes */
+src: url('../fonts/merriweather/MerriweatherItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/merriweather/MerriweatherItalic.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/merriweather/MerriweatherItalic.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/merriweather/MerriweatherItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/merriweather/MerriweatherItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
+font-style: italic;
+font-weight: 400;  
 }
-	@font-face {
-  font-family: 'Merriweather';
-  src: url('../fonts/merriweather/MerriweatherBold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/merriweather/MerriweatherBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/merriweather/MerriweatherBold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/merriweather/MerriweatherBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/merriweather/MerriweatherBold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/merriweather/MerriweatherBold.svg#Merriweather') format('svg'); /* Legacy iOS */
-	font-style: normal;
-	font-weight: 700;  
+@font-face {
+font-family: 'Merriweather';
+src: url('../fonts/merriweather/MerriweatherBold.eot'); /* IE9 Compat Modes */
+src: url('../fonts/merriweather/MerriweatherBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/merriweather/MerriweatherBold.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/merriweather/MerriweatherBold.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/merriweather/MerriweatherBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/merriweather/MerriweatherBold.svg#Merriweather') format('svg'); /* Legacy iOS */
+font-style: normal;
+font-weight: 700;  
 }
-	@font-face {
-  font-family: 'Merriweather';
-  src: url('../fonts/merriweather/MerriweatherBoldItalic.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/merriweather/MerriweatherBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/merriweather/MerriweatherBoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/merriweather/MerriweatherBoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/merriweather/MerriweatherBoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/merriweather/MerriweatherBoldItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
-	font-style: italic;
-	font-weight: 700;  
+@font-face {
+font-family: 'Merriweather';
+src: url('../fonts/merriweather/MerriweatherBoldItalic.eot'); /* IE9 Compat Modes */
+src: url('../fonts/merriweather/MerriweatherBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/merriweather/MerriweatherBoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/merriweather/MerriweatherBoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/merriweather/MerriweatherBoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/merriweather/MerriweatherBoldItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
+font-style: italic;
+font-weight: 700;  
 }
-	@font-face {
-  font-family: 'Merriweather';
-  src: url('../fonts/merriweather/MerriweatherBlack.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/merriweather/MerriweatherBlack.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/merriweather/MerriweatherBlack.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/merriweather/MerriweatherBlack.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/merriweather/MerriweatherBlack.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/merriweather/MerriweatherBlack.svg#Merriweather') format('svg'); /* Legacy iOS */
-	font-style: normal;
-	font-weight: 900;  
+@font-face {
+font-family: 'Merriweather';
+src: url('../fonts/merriweather/MerriweatherBlack.eot'); /* IE9 Compat Modes */
+src: url('../fonts/merriweather/MerriweatherBlack.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/merriweather/MerriweatherBlack.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/merriweather/MerriweatherBlack.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/merriweather/MerriweatherBlack.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/merriweather/MerriweatherBlack.svg#Merriweather') format('svg'); /* Legacy iOS */
+font-style: normal;
+font-weight: 900;  
 }
-	@font-face {
-  font-family: 'Merriweather';
-  src: url('../fonts/merriweather/MerriweatherBlackItalic.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/merriweather/MerriweatherBlackItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/merriweather/MerriweatherBlackItalic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/merriweather/MerriweatherBlackItalic.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/merriweather/MerriweatherBlackItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/merriweather/MerriweatherBlackItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
-	font-style: italic;
-	font-weight: 900;  
+@font-face {
+font-family: 'Merriweather';
+src: url('../fonts/merriweather/MerriweatherBlackItalic.eot'); /* IE9 Compat Modes */
+src: url('../fonts/merriweather/MerriweatherBlackItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/merriweather/MerriweatherBlackItalic.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/merriweather/MerriweatherBlackItalic.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/merriweather/MerriweatherBlackItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/merriweather/MerriweatherBlackItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
+font-style: italic;
+font-weight: 900;  
 }
 /*----Merriweather Pro font-family end----*/
 
@@ -204,8 +205,7 @@
 body {
 	font-family: 'Source Sans Pro', Arial, sans-serif;
 	color: #212931;
-  line-height: 32px;
-	
+  line-height: 32px;	
 }
 .page-wrapper {
 	width: 100%;
@@ -222,7 +222,6 @@ body {
 header, section, footer, aside, nav, main, article, figure {
 		display: block; 
 }
-
 .page-width {
 	width: 1152px;
 	margin: 0 auto;
@@ -252,7 +251,7 @@ a {
   transform: scale(1.2);
 }
 .sec-title {
- width: 542px;
+  width: 542px;
   letter-spacing: 3px;
   margin: 70px auto 43px;
   line-height: 62px;
@@ -260,6 +259,7 @@ a {
   color: #212931;
   font-weight: 900;
   text-transform: uppercase;
+  text-align: center;
 }
 .sec-title-link {
   font-size: 62px;
@@ -296,9 +296,18 @@ a.image-pos:hover  {
   font-weight: 700;  
   letter-spacing: 1px;
   color: #212931;
+  text-align: center;
 }
 .btn-effect {
   transition: all 0.3s;
+}
+.btn-fill {
+  background-color: #212931;
+  color: #fff;
+  transition: all 0.2s;  
+}
+.btn-fill:hover {
+  background-color: #18bfef;
 }
 .btn-effect:hover {
   color: #18bfef;
@@ -310,6 +319,19 @@ a.image-pos:hover  {
 }
 .brd-bottom:hover {
   border-bottom-color: transparent;
+}
+.btn-effect2 {
+  transition: all 0.2s;
+}
+.btn-effect2:hover {
+  border-color: #18bfef;
+}
+.line {
+  border: 1px solid #e2e2e2;
+  margin: 35px 0;
+}
+.stretch {
+  overflow: hidden;
 }
 /*---------------------
 	General Styles end
@@ -398,9 +420,6 @@ nav ul li a {
 nav ul li a:hover {
 	background: rgba(255,255,255,0.3);
 }
-.elements-nav {
-  cursor: not-allowed;
-}
 .social {
 	float: right;
 	padding-top: 18px;
@@ -430,7 +449,8 @@ nav ul li a:hover {
   background-color: #fff;
   height: 3741px;
   padding-top: 100px;
-  text-align: center;    
+  text-align: center;
+  display: none;   
 }
 .massively-title {
   width: 620px;
@@ -519,11 +539,11 @@ nav ul li a:hover {
   letter-spacing: 1px;
 }
 .gal-text {
-    font-size: 19px;
-    width: 447px;
-    text-align: left;
-    font-weight: 300;
-    margin: 27px auto 56px;
+  font-size: 19px;
+  width: 447px;
+  text-align: left;
+  font-weight: 300;
+  margin: 27px auto 56px;
 }
 .masgal-section-btn {
   padding: 4px 35px;
@@ -533,27 +553,28 @@ nav ul li a:hover {
   text-align: center;
   margin-top: 62px;
 }
-.pagination a {
-    color: #212931;; 
-    float: left;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 4px 17px;
-    border: 2px solid #eee;
-    transition: all 0.2s;
+.pagination a, .pagination span {
+  color: #212931;; 
+  float: left;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 4px 17px;
+  border: 2px solid #eee;
+  transition: all 0.2s;
+  position: relative;
+  margin-left: -2px;
+}
+.pagination span {
+  color: #eee;
+  padding: 4px 13px
 }
 .pagination a.active {
-    background-color: #eee;    
-}
-.pagination a:not(:last-child) {
-  border-right: none;
+  background-color: #eee;    
 }
 .pagination a:hover {
+  z-index: 1;
   color: #18bfef;
   border-color: #18bfef;  
-}
-.pagination a:hover + a {
-  border-left-color: #18bfef;
 }
 /*---------------
   Massively end
@@ -576,9 +597,256 @@ nav ul li a:hover {
   background-image: url("../images/pic01.jpg");
   background-size: cover;
 }
-
 /*------------
   Generic end
+--------------*/
+/*--------------
+  Elements start
+---------------*/
+.elements {
+  background-color: #fff;
+  height: 6000px;
+  padding: 100px 128px 0;
+  
+}
+.elements-text-title {
+  margin: 76px 0 12px; 
+}
+.elements-text {
+  font-family: 'Merriweather';
+  font-weight: 100;
+  text-align: justify;
+}
+.elements-text code {
+  background: rgba(220, 220, 220, 0.25);
+  border-color: #eee;
+  padding: 6px 11px;
+  border: 1px solid #eee;
+}
+.elements-text a {
+  color: #212931;
+}
+.headings {
+  line-height: 40px;
+}
+.head-intro {
+  font-family: 'Merriweather';
+  font-weight: 100;
+  font-style: italic;
+  margin: 10px 0 24px
+}
+.head2-intro {  
+  font-size: 16px;
+}
+.head3-intro {
+  font-size: 15px;
+}
+.head4-intro {
+  font-size: 14px;
+}
+.elements-subtitle-text {
+  margin-bottom: 35px;
+}
+.lists {
+  height: auto;
+}
+.lists-item {
+  float: left;
+  width: 50%;
+  line-height: 34px; 
+}
+.lists-item ul {
+  list-style-position: inside;
+}
+.lists ol span {
+  position: relative;
+  left: 9px;
+}
+.list {
+  font-family: 'Merriweather';
+  font-weight: 100;
+  padding-left: 10px;
+}
+.unordered ul {
+  list-style-type: disc;
+}
+.list-title {
+  margin: 12px 0 17px;
+}
+.alternate-title {
+  margin: 24px 0 10px;
+}
+.alternate-icons {
+  position: relative;
+  top: -14px;
+}
+.brd-icons a {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #eee;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+.alternate-icons ul {
+  margin-top: 15px;
+}
+.alternate-icons ul li {
+  display: inline-block;
+  width: 44px;
+  text-align: center;
+}
+.alternate-icons ul li a { 
+  color: #212931;    
+}
+.social-icons a {
+  font-size: 19px;  
+}
+.brd-icons a {
+  font-size: 16px; 
+}
+.def-title {
+  margin: 25px 0 28px;
+}
+.def-text {
+  font-family: 'Merriweather';
+  font-weight: 100;
+  text-align: justify;
+  width: 876px;
+  margin: 13px 0 26px 27px;
+}
+.actions-title {
+  margin-bottom: 25px;
+}
+.special li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.btn-special {
+  padding: 3px 20px;
+}
+.btn-default {
+  padding: 3px 20px;
+}
+.actions {  
+  height: 455px;
+}
+.small li {
+  display: inline-block;
+  margin: 10px 0;
+  margin: 28px 16px 28px 0;
+}
+.small a {
+  padding: 0px 18px;
+  font-size: 10px
+}
+.default-small {
+  margin-bottom: 20px;
+}
+.default-small div {
+  width: 50%;
+  float: left;
+}
+.default a {
+  display: block;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.small-vertical a {
+  display: block;
+  width: 80px;
+  margin-bottom: 10px;
+  font-size: 10px;  
+}
+.default-small-long a {
+  width: 94%;  
+}
+.blockquote-inner {
+  border-left: 4px solid #eee;
+  padding: 16px 0 0 31px;
+  height: 133px;    
+  margin-top: 28px;
+}
+.table-element table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-element caption {
+  font-size: 14px;
+  font-weight: 900;
+  margin: 14px 0;
+  text-align: left;
+}
+.table-element tr {
+  height: 60px;
+  border-collapse: collapse;
+}
+.table-element th {
+  font-size: 14px;
+}
+.table-element th, .table-element td {
+  padding: 8px;
+}
+.table-element tr:nth-child(even) {
+  background-color: #f5f5f5;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.alternate-table td {
+  border-left: 1px solid #eee;
+}
+.alternate-table .last-row {
+  border-left: none;
+}
+.buttons-title {
+  margin-bottom: 20px;
+}
+.big {
+  margin: 25px 0;
+}
+.big li {
+  display: inline-block;
+  margin-right: 12px;
+}
+.btn-big {
+  padding: 6px 33px;
+}
+.small-btn {
+  font-size: 11px;
+  padding: 1px 8px;
+}
+.btn-fit-small {
+  font-size: 11px;
+}
+.fit li, .fit-small li {
+  display: inline-block;
+}
+.btn-fit, .btn-fit-small {
+  width: 430px;
+  margin: 10px  10px 20px 0;
+}
+.search-download li {
+  display: inline-block;
+}
+.search-download a {
+  padding: 2px 20px;
+  margin-right: 10px;
+}
+.disabled-buttons {
+  margin: 30px 0;
+}
+.btn-disabled-fill {
+  background-color: #212931;
+  color: #fff;
+}
+.disabled-buttons a {
+  opacity: 0.2;
+  cursor: default;
+}
+
+/*------------
+  Elements end
 --------------*/
 /*-------------------------------
   Navigation pages end
