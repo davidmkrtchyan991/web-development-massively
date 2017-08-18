@@ -450,7 +450,8 @@ nav ul li a:hover {
   background-color: #fff;
   height: 3741px;
   padding-top: 100px;
-  text-align: center;      
+  text-align: center;
+  display: none;      
 }
 .massiv-nav {
   background-color: #fff;
@@ -610,8 +611,8 @@ nav ul li a:hover {
 .elements {
   background-color: #fff;
   height: 8800px;
-  padding: 100px 128px 0;
-  display: none;  
+  padding: 50px 128px 0;
+  /*display: none; */ 
 }
 .elements-text-title {
   margin: 76px 0 12px; 
@@ -849,11 +850,11 @@ nav ul li a:hover {
   cursor: default;
 }
 .message-form input[type="text"] {
-  width: 49%;
+  width: 48.4%;
   background-color: #fff;  
 }
 .message-form input[name="fname"] {
-  margin-right: 14px;
+  margin-right: 22px;
 }
 [name="categories"] {
   width: 100%;
