@@ -36,8 +36,8 @@
 			<nav>
 				<ul>
 					<li><a href="index.html" class="massiv-nav">THIS IS MASSIVELY</a></li>
-					<li><a href="" class="generic-nav">GENERIC PAGE</a></li>
-					<li><a href="" class="elements-nav">ELEMENTS REFERENCE</a></li>
+					<li><a href="#" class="generic-nav">GENERIC PAGE</a></li>
+					<li><a href="#" class="elements-nav">ELEMENTS REFERENCE</a></li>
 				</ul>
 			</nav>
 			<div class="social">
@@ -334,57 +334,119 @@
 							<td class="last-row">100&#46;00</td>
 						</tr>
 					</table>
-					<hr class="line"/>
-					<div class="buttons">
-						<h2 class="buttons-title">BUTTONS</h2>
-						<ul class="special">
-							<li><a href="" class="btn btn-fill btn-effect2 btn-special">special</a></li>
-							<li><a href="" class="btn  btn-effect btn-default">default</a></li>
-						</ul>
-						<ul class="big">
-							<li><a href="" class="btn btn-fill btn-big btn-effect2">big</a></li>
-							<li><a href="" class="btn  btn-effect btn-default">default</a></li>
-							<li><a href="" class="btn btn-effect small-btn">small</a></li>		
-						</ul>						
-						<ul class="fit">
-							<li><a href="" class="btn btn-fill btn-effect2 btn-fit">fit</a></li>
-							<li><a href="" class="btn btn-effect btn-fit">fit</a></li>
-						</ul>					
-						<ul class="fit-small">
-							<li><a href="" class="btn btn-fill btn-effect2 btn-fit-small">fit &#43; small</a></li>
-							<li><a href="" class="btn btn-effect btn-fit-small">fit &#43; small</a></li>
-						</ul>
-						<ul class="search-download">
-							<li><a href="" class="btn btn-fill btn-effect2"><i class="fa fa-search" aria-hidden="true"></i> icon</a></li>
-							<li><a href="" class="btn btn-effect"><i class="fa fa-download" aria-hidden="true"></i> icon</a></li>
-						</ul>
-						<ul class="special disabled-buttons">
-							<li><a href="" class="btn btn-special btn-disabled-fill">special</a></li>
-							<li><a href="" class="btn btn-default">default</a></li>
-						</ul>			
-					</div><!--Buttons end-->
-					<hr class="line"/>
-					<div class="elements-form">
-						<h2>FORM</h2>
-						<form class="message-form" action="/action_page.php" method="post" autocomplete="off">					
-							<input type="text" class="form-item" name="fname" placeholder="Name" maxlength="25" required="required"/>				
-							<input type="text" class="form-item" name="email" placeholder="Email" maxlength="45" required="required"/><br/>
-							<div class="select-wrapper data-icon="&#xf0d7">
-							 <select name="categories" class="elements-text">
+				</div><!--Table element end-->
+				<hr class="line"/>
+				<div class="buttons">
+					<h2 class="buttons-title">BUTTONS</h2>
+					<ul class="special">
+						<li><a href="" class="btn btn-fill btn-effect2 btn-special">special</a></li>
+						<li><a href="" class="btn  btn-effect btn-default">default</a></li>
+					</ul>
+					<ul class="big">
+						<li><a href="" class="btn btn-fill btn-big btn-effect2">big</a></li>
+						<li><a href="" class="btn  btn-effect btn-default">default</a></li>
+						<li><a href="" class="btn btn-effect small-btn">small</a></li>		
+					</ul>						
+					<ul class="fit">
+						<li><a href="" class="btn btn-fill btn-effect2 btn-fit">fit</a></li>
+						<li><a href="" class="btn btn-effect btn-fit">fit</a></li>
+					</ul>					
+					<ul class="fit-small">
+						<li><a href="" class="btn btn-fill btn-effect2 btn-fit-small">fit &#43; small</a></li>
+						<li><a href="" class="btn btn-effect btn-fit-small">fit &#43; small</a></li>
+					</ul>
+					<ul class="search-download">
+						<li><a href="" class="btn btn-fill btn-effect2"><i class="fa fa-search" aria-hidden="true"></i> icon</a></li>
+						<li><a href="" class="btn btn-effect"><i class="fa fa-download" aria-hidden="true"></i> icon</a></li>
+					</ul>
+					<ul class="special disabled-buttons">
+						<li><a href="" class="btn btn-special btn-disabled-fill">special</a></li>
+						<li><a href="" class="btn btn-default">default</a></li>
+					</ul>			
+				</div><!--Buttons end-->
+				<hr class="line"/>
+				<div class="elements-form">
+					<h2>FORM</h2>
+					<form class="message-form" action="/action_page.php" method="post" autocomplete="off">					
+						<input type="text" class="form-item" name="fname" placeholder="Name" maxlength="25" required="required"/>				
+						<input type="text" class="form-item" name="email" placeholder="Email" maxlength="45" required="required"/><br/>
+						<div class="select-wrapper">
+							<select name="categories" class="elements-text form-effect">
     							<option value="category">&#8212; Category &#8212;</option>
     							<option value="manufacturing">Manufacturing</option>
     							<option value="manufacturing">Shipping</option>
     							<option value="manufacturing">Administration</option>
     							<option value="manufacturing">Human Resources</option>
-  							</select><br/>
-							</div>
-							<textarea class="form-item" name="textarea" maxlength="200" required="required"></textarea><br/>
-							<input class="btn form-btn brd-effect" type="submit" value="SEND MESSAGE"/>
-							<input class="btn form-btn brd-effect" type="submit" value="RESET"/>
-						</form>	
+  							</select>
+						</div>
+						<div class="radio-buttons elements-text">								
+							<input type="radio" name="urgent" id="low" value="low" required="required" checked="checked">
+							<label for="low">Low</label>								
+							<input type="radio" name="urgent" id="normal" value="normal">
+							<label for="normal">Normal</label>							
+							<input type="radio" name="urgent" id="high" value="high">
+							<label for="high">High</label>
+						</div>
+						<div class="checkbox-buttons elements-text">
+							<input type="checkbox" name="copy" id="copy" value="copy"/>
+							<label for="copy">Email me a copy</label>
+							<input type="checkbox" name="human" id="human" value="human" required="required"/>
+							<label for="human">I am a human</label>								
+						</div>
+						<textarea class="form-item" name="textarea" maxlength="200" required="required">Enter your message</textarea><br/>
+						<input class="btn btn-fill btn-effect2 btn-send" type="submit" value="SEND MESSAGE"/>
+						<input class="btn btn-effect btn-reset" type="submit" value="RESET"/>
+					</form>	
+				</div><!--Elements form end-->
+				<hr class="line"/>
+				<div class="image">
+					<h2>IMAGE</h2>
+					<h3 class="image-subtitle">FIT</h3>
+					<div class="image-banner"></div>
+					<div class="image-gallery stretch">
+						<div class="image-item car"></div>
+						<div class="image-item man-street"></div>
+						<div class="image-item photo-camera"></div>
+						<div class="image-item photo-camera"></div>
+						<div class="image-item car"></div>
+						<div class="image-item man-street"></div>
+						<div class="image-item man-street"></div>
+						<div class="image-item photo-camera"></div>
+						<div class="image-item car"></div>
 					</div>
-					
+					<div class="left-right">
+						<h3>LEFT &#38; RIGHT</h3>
+						<div class="image-left">
+							<div class="lf-image photo-camera photo-text"></div>
+							<p class="elements-text">Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+						</div>
+						<div class="image-right">
+							<div class="lf-image man-street man-text"></div>
+							<p class="elements-text">Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+						</div>
+					</div><!--Left and Right end-->
+				</div><!--Image end-->
+				<hr class="line"/>
+				<div class="box">
+					<h2 class="box-title">BOX</h2>
+					<p class="elements-text box-text">Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum dolor sit amet nullam. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor.</p>					
 				</div>
+				<hr class="line"/>
+				<div class="preformatted">
+					<h2>PREFORMATTED</h2>
+					<pre>
+<code>
+	i = 0;
+	while (!deck.isInOrder()) {
+	    print 'Iteration ' + i;
+	    deck.shuffle();
+	    i++;
+	}
+	print 'It took ' + i + ' iterations to sort the deck.';				
+</code>
+					</pre>
+					
+				</div>				
 			</div>
 			<!--Elements end-->
 
@@ -440,9 +502,9 @@
 	<div class="copyright"> 
 		<div class="page-width">
 			<ul>
-				<li>&#169; UNTITLED</li>
-				<li>DESIGN&#58; <a href="#" class="effect"> HTML5 UP</a></li>
-				<li>DEMO IMAGES&#58; <a href="#" class="effect">UNSPLASH</a></li>
+				<li><span>&#169; UNTITLED</span></li>
+				<li><span>DESIGN&#58;</span><a href="#"> HTML5 UP</a></li>
+				<li><span>DEMO IMAGES&#58;</span><a href="#"> UNSPLASH</a></li>
 			</ul>			
 		</div>
 	</div>
