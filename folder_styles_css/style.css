@@ -28,6 +28,7 @@ border:1px solid #eeeeee;
  background-image: url("../images/bg.jpg");
  background-size: cover;
  background-repeat: no-repeat;
+ background-attachment:fixed;
 }
 .container-center{
  width:1550px;
@@ -363,6 +364,7 @@ margin-top:75px;
 }
 .page-number-container{
  width:100%;
+ overflow:hidden;
 }
 .page-number-list{
  width:65px;
