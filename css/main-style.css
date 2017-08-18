@@ -139,7 +139,7 @@ body {
 
 .main-article {
 	padding: 110px 0 130px;
-	outline: 1px solid red;
+	outline: 1px solid #eeeeee;
 }
 
 .article-huge-title {
@@ -165,15 +165,14 @@ body {
 	overflow: hidden;
 }
 
-.article-image {
+.main-article-image {
 	background-image: url("../images/sss.jpg");
 	width: 897px;
 	height: 437px;
-	overflow: hidden;
 }
 
 
-.article-image:hover {
+.main-article-image:hover {
 	transform: scale(1.1);
 	transition: .3s;
 	cursor: pointer;
@@ -195,13 +194,89 @@ body {
 	transition: .3s;
 }
 
+.article {
+	width: 575px;
+	overflow: hidden;
+	float: left;
+	outline: 2px solid #eeeeee;
+}
+
+.article-date {
+	display: inline-block;
+	margin: 70px 0 30px;
+}
+
+.outwrapp-image {
+	width: 450px;
+	height: 275px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+.article-image {
+	width: 450px;
+	height: 275px;
+	background-size: contain;
+}
+
+.article-image:hover {
+	transform: scale(1.1);
+	transition: .3s;
+	cursor: pointer;
+}
 
 
+/* image names */
 
 
+.car {
+	background-image: url("../images/car.jpg");
+}
 
+.man {
+	background-image: url("../images/man.jpg");
+}
 
+.camera {
+	background-image: url("../images/camera.jpg");
+}
 
+.mountine {
+	background-image: url("../images/mountine.jpg");
+}
+
+.photographer {
+	background-image: url("../images/photographer.jpg");
+}
+
+.lendrover {
+	background-image: url("../images/lendrover.jpg");
+}
+
+/* end of image names */
+
+.article-text {
+	width: 450px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.full-btn {
+	width: 142px;
+	height: 47px;
+	background-color: white;
+	outline: none;
+	border: 2px solid;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 40px 0 60px;
+}
+
+.full-btn:hover {
+	color: #18bfef;
+	transition: .3s;
+}
 
 
 
