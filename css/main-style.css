@@ -126,14 +126,14 @@ body {
 
 /* --- END OF CONTAINER-TOP-BAR --- */
 
-/* --- CONTAINER-MAIN --- */
+/* --- MASSIVELY --- */
 
-.container-main {
+.massively {
 	background-color: #fff;
 	overflow: hidden;
 }
 
-.container-main a {
+.massively a {
 	color: #000;
 }
 
@@ -153,7 +153,7 @@ body {
 	line-height: initial;
 }
 
-.article-huge-title a:hover {
+.main-article-title a:hover {
 	color: #18bfef;
 	transition: .3s;
 }
@@ -192,6 +192,10 @@ body {
 .main-full-btn:hover {
 	color: #18bfef;
 	transition: .3s;
+}
+
+.outwrapp-article {
+	overflow: hidden;
 }
 
 .article {
@@ -278,7 +282,41 @@ body {
 	transition: .3s;
 }
 
+.page-numb {
+	overflow: hidden;
+	outline: 1px solid red;
+}
 
+.pagination {
+	width: 800px;
+	height: 50px;
+	margin: 65px auto;
+	outline: 1px dotted blue;
+}
+
+.pagination a {
+	margin: 0 -1px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 2px solid gray;
+}
+
+.pagination a:hover {
+	border-color: #18bfef;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---END OF MASSIVELY --- */
 
 
 
