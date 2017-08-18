@@ -38,6 +38,7 @@ body {
 .wrapper {
 	background-image: url("../images/bg.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	background-attachment: fixed;
 	text-align: center;
 	overflow: hidden;
@@ -175,6 +176,7 @@ body {
 .article-image:hover {
 	transform: scale(1.1);
 	transition: .3s;
+	cursor: pointer;
 }
 
 .main-full-btn {
