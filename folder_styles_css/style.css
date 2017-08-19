@@ -29,6 +29,7 @@ border:1px solid #eeeeee;
  background-size: cover;
  background-repeat: no-repeat;
  background-attachment:fixed;
+ overflow:hidden;
 }
 .container-center{
  width:1550px;
