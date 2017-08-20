@@ -1,6 +1,6 @@
 /*---- Media Queries ----*/
 
-/*Tablet (Landscape) start*/
+/*------ Tablet (Landscape) start ------*/
 @media all and (max-width: 1151px) {
 	/*--- General start ---*/ 
 	.page-width {
@@ -114,10 +114,7 @@
 	.image-item {
 		width: calc((100% - 22px) / 3);
 		height: 17vw;
-	}
-	/*.image-item {
-		width: 32.574%
-	}*/
+	}	
 	.image-item:not(:nth-child(3n)) {
     	margin-right: 11px;
 	}	
@@ -126,8 +123,6 @@
 	}
 	
 	/*--- Elements end ---*/
-
-
 
 	/*------ Navigation pages end ------*/
 	
@@ -161,11 +156,89 @@
 	.copyright ul li a {
 		font-size: 12px;
 	}
-	/*--- Copyright end ---*/
+	/*--- Copyright end ---*/	
+}
+/*------ Tablet (Landscape) end ------*/
 
-
- 
-
+/*------ Tablet (Portrait) start ------*/
+@media all and (max-width: 992px) {
+	.nav-icon {
+		display: block;		
+	}
+	.nav-group {
+	    width: 62px;    	
+	    height: 14px;
+    	line-height: 10px;
+    	float: right;
+    	color:red;
+    	z-index: 100;    	    	
+	}
+	.navigation {
+		position: fixed;
+		background-color: #fff;
+		width: 299px;
+		height: 100vh;
+		top: 0;
+		right: 0;
+		z-index: 200;
+		display: none;
+	}
+	.navigation-inner {
+		background-color: #fff;
+	}
+	nav ul li {
+		float: none;
+	}
+	nav ul li:not(:last-child)  {
+		border-bottom: 2px solid #eee;
+	}
+	.navigation a {
+		color: #212931;
+	}
+	.social a {
+		font-size: 16px;
+		margin: 0 6px;
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+		line-height: 30px;
+		border-radius: 50%;
+		border: 2px solid #eee;
+		text-align: center;
+	}
+	.massively {
+		height: 3500px;
+	}
+	.footer-inner {
+		height: 1130px;
+	}
+	.form {
+		float: none;
+		width: calc(100% - 60px);
+	}
+	.contact-table {
+		width: 100%;
+		height: auto;
+	}
+	.contact-table tr {
+  		border-top: 2px solid #eee;
+	}
+	.zip-contact {
+		vertical-align: middle;
+	}
+	.zip-contact th {
+		position: relative;
+		top: -13px;
+	}
+	.generic {
+    height: 1600px;
+	}
+	.message-form input[type="text"] {
+		width: calc((100% - 26px) / 2);
+	}
 	
 }
-/*Tablet (Landscape) end*/
+
+/*------ Tablet (Portrait) end ------*/
+
+

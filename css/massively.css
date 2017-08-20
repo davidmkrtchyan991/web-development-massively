@@ -338,9 +338,30 @@ a.image-pos:hover  {
 	General Styles end
 -----------------------*/
 
-/*--------------
-	Header start
-----------------*/
+/*---------------------
+  Navigation icon start
+-----------------------*/  
+.nav-icon {
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+ /* text-align: right;*/
+  padding-top: 25px;
+  position: fixed;
+  right: 35px;
+  display: none;
+}
+.nav-bar {
+  margin-right: 6px;  
+}
+/*---------------------
+	Navigation icon end
+-----------------------*/
+
+/*-------------
+  Header start
+---------------*/
 header {
 	background-color: transparent;
 	height: 582px;
@@ -451,7 +472,7 @@ nav ul li a:hover {
   height: 3741px;
   padding-top: 100px;
   text-align: center;
-  display: none;      
+  /*display: none; */     
 }
 .massiv-nav {
   background-color: #fff;
@@ -612,7 +633,7 @@ nav ul li a:hover {
   background-color: #fff;
   height: 8800px;
   padding: 50px 128px 0;
-  /*display: none; */ 
+  display: none; 
 }
 .elements-text-title {
   margin: 76px 0 12px; 
