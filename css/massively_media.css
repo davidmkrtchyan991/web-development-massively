@@ -1,7 +1,7 @@
 /*---- Media Queries ----*/
 
 /*------ Tablet (Landscape) start ------*/
-@media all and (max-width: 1151px) {
+@media all and (max-width: 1200px) {
 	/*--- General start ---*/ 
 	.page-width {
 	    width: calc(100% - 69px);
@@ -162,6 +162,12 @@
 
 /*------ Tablet (Portrait) start ------*/
 @media all and (max-width: 992px) {
+	.def-text {
+		width: 540px;
+	}
+	.blockquote {
+		height: auto;
+	}
 	.nav-icon {
 		display: block;		
 	}
@@ -170,8 +176,10 @@
 	    height: 14px;
     	line-height: 10px;
     	float: right;
-    	color:red;
-    	z-index: 100;    	    	
+    	color:red;    	    	    	
+	}
+	.page-intro {
+		width: 700px;
 	}
 	.navigation {
 		position: fixed;
@@ -241,4 +249,48 @@
 
 /*------ Tablet (Portrait) end ------*/
 
+/*------ Mobile start ------*/
+@media all and (max-width: 768px) {
 
+.containerFixed {
+	width: 100%;
+	margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.mob-1 {
+	width: 11.11%
+}
+.mob-2 {
+	width: 22.22%;
+}
+.mob-3 {
+	width: 33.33%;
+}
+.mob-4 {
+	width: 44.44%
+}
+.mob-5 {
+	width: 55.56%;
+}
+.mob-6 {
+	width: 66.67%;
+}
+.mob-7 {
+	width: 77.78%;
+}
+.mob-8 {
+	width: 88.89%;
+}
+.mob-9 {
+	width: 100.00%;
+}
+[class*="mob-"] {
+    float: left;
+    padding: 10px;    
+}
+}
+/*------ Mobile end ------*/

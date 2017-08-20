@@ -346,9 +346,9 @@ a.image-pos:hover  {
   color: #fff;
   font-weight: 600;
   font-size: 15px;
- /* text-align: right;*/
   padding-top: 25px;
   position: fixed;
+  z-index: 200;
   right: 35px;
   display: none;
 }
@@ -737,6 +737,7 @@ nav ul li a:hover {
 }
 .def-text {
   font-family: 'Merriweather';
+  font-size: 16px;
   font-weight: 100;
   text-align: justify;
   width: 876px;
