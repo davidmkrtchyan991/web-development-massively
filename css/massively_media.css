@@ -227,6 +227,7 @@
 	.contact-table {
 		width: 100%;
 		height: auto;
+		border-left: none;
 	}
 	.contact-table tr {
   		border-top: 2px solid #eee;
@@ -250,8 +251,7 @@
 /*------ Tablet (Portrait) end ------*/
 
 /*------ Mobile start ------*/
-@media all and (max-width: 768px) {
-
+@media all and (min-width: 320px) and (max-width: 768px) {
 .containerFixed {
 	width: 100%;
 	margin: 0 auto;
@@ -261,6 +261,71 @@
     clear: both;
     display: table;
 }
+.page-title {
+	font-size: 50px;	
+	line-height: 50px;
+}
+.scr-down-btn {
+	display: none;
+}
+header {
+	padding-top: 70px;
+	height: auto;
+}
+.date span {
+	padding: 0 30px;
+}
+.massively, .masgal-section {
+	height: auto;
+}
+.massively {
+	padding-bottom: 30px;
+}
+.sec-title-link {
+	font-size: 48px;
+}
+.massiv-section-btn-wrap {
+	margin-bottom: -63px;
+}
+.masgal-section {
+	border: none;
+	border-top: 2px solid #eee;
+	padding-bottom: 30px;
+}
+.masgal-section:nth-last-child(-n+2) {
+    border-bottom: none;
+}
+.masgal-section:nth-child(even) {
+    border-left: none;
+}
+.masgal-section:last-child {
+	border-bottom: 2px solid #eee;
+}
+.masgal-section-image {
+	height: 47vw;
+}
+.sec-intro {
+	font-size: 18px;
+}
+.gal-text {
+	margin-bottom: 20px;
+}
+.pagination a:not(:last-child), .extra {
+	display: none;
+}
+.pagination a {
+	padding: 4px 35px;
+}
+.copyright ul li:not(:last-child) {
+	border-right: none;
+}
+.copyright ul li {
+	display: block;
+	line-height: 22px;
+}
+.copyright ul li span, .copyright ul li a {
+	font-size: 15px;	
+} 
 .mob-1 {
 	width: 11.11%
 }
@@ -289,8 +354,34 @@
 	width: 100.00%;
 }
 [class*="mob-"] {
-    float: left;
-    padding: 10px;    
+    float: left;       
+}
+.mob-1-offset {
+    margin-left: 11.11111%;
+}
+.mob-2-offset {
+	margin-left: 22.22222%;
+}
+.mob-3-offset {
+	margin-left: 33.33333%;
+}
+.mob-4-offset {
+	margin-left: 44.44444%;
+}
+.mob-5-offset {
+	margin-left: 55.55556%;
+}
+.mob-6-offset {
+	margin-left: 66.66667%;
+}
+.mob-7-offset {
+	margin-left: 77.77778%;
+}
+.mob-8-offset {
+	margin-left: 88.88889%;
+}
+.mob-9-offset {
+	margin-left: 100.00%;
 }
 }
 /*------ Mobile end ------*/
