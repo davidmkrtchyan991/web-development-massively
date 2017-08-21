@@ -145,11 +145,19 @@
 			<!--Generic start-->
 			<div class="generic">				
 				<p class="date"><span>April 25, 2017</span></p>
-				<p class="sec-title">this is a generic page</p>
-				<p class="sec-intro">Aenean ornare velit lacus varius enim ullamcorper proin aliquam facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor amet nullam sed etiam veroeros.</p>
+				<div class="clearfix">
+					<p class="sec-title mob-1-offset mob-7">this is a generic page</p>
+				</div>
+				<div class="clearfix">
+					<p class="sec-intro mob-1-offset  mob-7">Aenean ornare velit lacus varius enim ullamcorper proin aliquam facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor amet nullam sed etiam veroeros.</p>
+				</div>
 				<div class="generic-banner"></div>
-				<p class="sec-text">Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-				<p class="sec-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>				
+				<div class="clearfix">
+					<p class="sec-text mob-1-offset mob-7">Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
+				</div>
+				<div class="clearfix">
+					<p class="sec-text mob-1-offset mob-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+				</div>				
 			</div>
 			<!--Generic end-->
 
@@ -481,15 +489,21 @@
 	<footer>
 		<div class="footer-inner page-width containerFixed">
 			<div class="form">
-				<form class="contact-form" action="/action_page.php" method="post" autocomplete="off">
-					<span>NAME</span><br/>
-					<input class="form-item mob-9" type="text" name="fname" maxlength="25" required="required"/><br/>
-					<span>EMAIL</span><br/>
-					<input class="form-item mob-9" type="text" name="email" maxlength="45" required="required"/><br/>
-					<span>MESSAGE</span><br/>
-					<textarea class="form-item mob-9"  name="textarea" maxlength="200" required="required"></textarea><br/>
+				<form class="contact-form" action="/action_page.php" method="post" autocomplete="off">		
+					<span>NAME</span><br/>					
+					<div class="clearfix"> 
+						<input class="form-item mob-1-offset mob-7" type="text" name="fname" maxlength="25" required="required"/><br/>
+					</div>					
+					<span>EMAIL</span><br/>					
 					<div class="clearfix">
-						<input class="btn form-btn brd-effect mob-9" type="submit" value="SEND MESSAGE"/>
+						<input class="form-item mob-1-offset mob-7" type="text" name="email" maxlength="45" required="required"/><br/>
+					</div>					
+					<span>MESSAGE</span><br/>					
+					<div class="clearfix">
+						<textarea class="form-item mob-1-offset mob-7"  name="textarea" maxlength="200" required="required"></textarea><br/>
+					</div>
+					<div class="clearfix">
+						<input class="btn form-btn brd-effect mob-1-offset mob-7" type="submit" value="SEND MESSAGE"/>
 					</div>			
 				</form>				
 			</div>
