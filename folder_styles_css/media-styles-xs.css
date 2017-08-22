@@ -1,4 +1,4 @@
-@media all and (min-width:768px) and (max-width:992px){
+@media all and (max-width:480px){
 
 .container-center{
  width:768px;
@@ -136,5 +136,21 @@ width:768px;
 .box-text{
  font-size:20px;
  line-height:30px;
+}
+.form-data-text{
+ margin-right:55px;
+}
+input[type="checkbox"]{
+ margin-left:34px;
+}
+.form-text{
+ margin:0px auto 35px;
+}
+.fit-image{
+ height:45%;
+}
+.fit-small-images{
+ width:30%;
+ display:inline-block;
 }
 }
