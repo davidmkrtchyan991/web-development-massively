@@ -214,11 +214,6 @@ body {
 	background: url("../images/bg.jpg") no-repeat top center fixed;
 	background-size: cover;
 }
-/*
-* - For W3C compliant CSS: If you define the color property, you must also define the background-color.
-* - Don't forget links for :visited and :active pseudo-classes.
-* - You may specify headings with h1-h6 CLASSES.
-*/
 header, section, footer, aside, nav, main, article, figure {
 		display: block; 
 }
@@ -444,7 +439,7 @@ nav ul li a:hover {
 }
 .social {
 	float: right;
-	padding-top: 18px;
+	margin-top: -17px;
 	margin-right: 25px;
 }
 .social a {
@@ -471,8 +466,7 @@ nav ul li a:hover {
   background-color: #fff;
   height: 3741px;
   padding-top: 100px;
-  text-align: center;
-  /*display: none; */     
+  text-align: center;    
 }
 .massiv-nav {
   background-color: #fff;
@@ -633,7 +627,7 @@ nav ul li a:hover {
   background-color: #fff;
   height: 8800px;
   padding: 50px 128px 0;
-  display: none; 
+  display: none;
 }
 .elements-text-title {
   margin: 76px 0 12px; 

@@ -275,6 +275,13 @@ header {
 .navigation {
 	width: 70vw;
 }
+.social a {
+	font-size: 15px;
+	width: 26px;
+	height: 26px;
+	line-height: 24px;
+	margin: 0 4px;
+}
 .date span {
 	padding: 0 15px;
 }
@@ -289,9 +296,6 @@ header {
 }
 .massiv-section-btn-wrap {
 	margin-bottom: -63px;
-}
-.massively-gallery {
-	/*margin-top: 0;*/
 }
 .masgal-section {
 	border: none;
@@ -325,6 +329,7 @@ header {
 .pagination a {
 	padding: 4px 35px;
 }
+/*Massively end*/
 /*Generic start*/
 .generic {
 	height: auto;
@@ -334,6 +339,83 @@ header {
 	line-height: 38px;
 }
 /*Generic end*/
+/*Elements Reference start */
+.elements {
+	padding: 0;
+}
+.offset {
+	margin-left: 11%;
+}
+.list {
+	font-size: 14px;
+	padding-left: 0;
+}
+.lists-appearance, .alternate {
+	overflow: visible;
+}
+.lists-appearance .ordered .list-title {
+	position: relative;
+	left: -15px;
+}
+.lists-appearance .ordered {
+    margin: 0 0 16px 18px;
+}
+.alternate-icons {
+	margin: 25px 0;
+}
+.actions {
+	height: auto;
+}
+.special li {
+	margin-bottom: 15px;
+}
+.small li {
+	margin: 0;
+}
+.default-small div {
+	width: 100%;
+}
+.default-small a {
+	width: 88.88889%;
+}
+.blockquote-inner {
+	height: auto;
+}
+.table-element table {
+	width: 88.88889%;
+}
+.table-element table tr {
+	font-size: 12px;
+}
+.buttons li {
+	margin-bottom: 15px;
+}
+.fit li:first-child,.fit-small li:first-child; {
+	margin-right: 4%;
+}
+.fit li, .fit-small li {
+	width: 42%;
+}
+.message-form input[type="text"] {
+	width: 100%;
+}
+.radio-buttons label, .checkbox-buttons label {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.image {
+	width: 82%;
+}
+.lf-image {
+	width: 40%;
+	height: 20vw;
+}
+.preformatted {
+	overflow-x: scroll;
+}
+/*Elements Reference end */
+
 
 
 
