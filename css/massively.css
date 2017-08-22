@@ -2,28 +2,7 @@
 	General Styles start
 -------------------------*/
 /*----Source Sans Pro font-family start----*/
-@font-face {
-  font-family: 'Source Sans Pro';
-  src: url('../fonts/SourceSansProExtraLight.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/SourceSansProExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/SourceSansProExtraLight.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/SourceSansProExtraLight.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/SourceSansProExtraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/SourceSansProExtraLight.svg#Source Sans Pro') format('svg'); /* Legacy iOS */
-	font-style: normal;
-	font-weight: 200;  
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  src: url('../fonts/SourceSansProExtraLightItalic.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/SourceSansProExtraLightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/SourceSansProExtraLightItalic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/SourceSansProExtraLightItalic.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/SourceSansProExtraLightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/SourceSansProExtraLightItalic.svg#Source Sans Pro') format('svg'); /* Legacy iOS */
-	font-style: italic;
-	font-weight: 200;  
-}
+
 @font-face {
   font-family: 'Source Sans Pro';
   src: url('../fonts/SourceSansProLight.eot'); /* IE9 Compat Modes */
@@ -115,7 +94,6 @@ src: url('../fonts/merriweather/MerriweatherLight.eot?#iefix') format('embedded-
 font-style: normal;
 font-weight: 300;  
 }
-
 @font-face {
 font-family: 'Merriweather';
 src: url('../fonts/merriweather/MerriweatherLightItalic.eot'); /* IE9 Compat Modes */
@@ -127,6 +105,8 @@ src: url('../fonts/merriweather/MerriweatherLightItalic.eot?#iefix') format('emb
 font-style: italic;
 font-weight: 300;  
 }
+
+
 @font-face {
 font-family: 'Merriweather';
 src: url('../fonts/merriweather/MerriweatherRegular.eot'); /* IE9 Compat Modes */
@@ -148,50 +128,6 @@ src: url('../fonts/merriweather/MerriweatherItalic.eot?#iefix') format('embedded
      url('../fonts/merriweather/MerriweatherItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
 font-style: italic;
 font-weight: 400;  
-}
-@font-face {
-font-family: 'Merriweather';
-src: url('../fonts/merriweather/MerriweatherBold.eot'); /* IE9 Compat Modes */
-src: url('../fonts/merriweather/MerriweatherBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/merriweather/MerriweatherBold.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/merriweather/MerriweatherBold.woff') format('woff'), /* Pretty Modern Browsers */
-     url('../fonts/merriweather/MerriweatherBold.ttf')  format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/merriweather/MerriweatherBold.svg#Merriweather') format('svg'); /* Legacy iOS */
-font-style: normal;
-font-weight: 700;  
-}
-@font-face {
-font-family: 'Merriweather';
-src: url('../fonts/merriweather/MerriweatherBoldItalic.eot'); /* IE9 Compat Modes */
-src: url('../fonts/merriweather/MerriweatherBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/merriweather/MerriweatherBoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/merriweather/MerriweatherBoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
-     url('../fonts/merriweather/MerriweatherBoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/merriweather/MerriweatherBoldItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
-font-style: italic;
-font-weight: 700;  
-}
-@font-face {
-font-family: 'Merriweather';
-src: url('../fonts/merriweather/MerriweatherBlack.eot'); /* IE9 Compat Modes */
-src: url('../fonts/merriweather/MerriweatherBlack.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/merriweather/MerriweatherBlack.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/merriweather/MerriweatherBlack.woff') format('woff'), /* Pretty Modern Browsers */
-     url('../fonts/merriweather/MerriweatherBlack.ttf')  format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/merriweather/MerriweatherBlack.svg#Merriweather') format('svg'); /* Legacy iOS */
-font-style: normal;
-font-weight: 900;  
-}
-@font-face {
-font-family: 'Merriweather';
-src: url('../fonts/merriweather/MerriweatherBlackItalic.eot'); /* IE9 Compat Modes */
-src: url('../fonts/merriweather/MerriweatherBlackItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/merriweather/MerriweatherBlackItalic.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/merriweather/MerriweatherBlackItalic.woff') format('woff'), /* Pretty Modern Browsers */
-     url('../fonts/merriweather/MerriweatherBlackItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/merriweather/MerriweatherBlackItalic.svg#Merriweather') format('svg'); /* Legacy iOS */
-font-style: italic;
-font-weight: 900;  
 }
 /*----Merriweather Pro font-family end----*/
 
@@ -634,7 +570,7 @@ nav ul li a:hover {
 }
 .elements-text {
   font-family: 'Merriweather';
-  font-weight: 100;
+  font-weight: 300;
   text-align: justify;
 }
 .elements-text code {
@@ -651,7 +587,7 @@ nav ul li a:hover {
 }
 .head-intro {
   font-family: 'Merriweather';
-  font-weight: 100;
+  font-weight: 300;
   font-style: italic;
   margin: 10px 0 24px
 }
@@ -684,7 +620,7 @@ nav ul li a:hover {
 }
 .list {
   font-family: 'Merriweather';
-  font-weight: 100;
+  font-weight: 300;
   padding-left: 10px;
 }
 .unordered ul {
@@ -698,7 +634,7 @@ nav ul li a:hover {
 }
 .alternate-icons {
   position: relative;
-  top: -14px;
+  top: 24px;
 }
 .brd-icons a {
   width: 35px;
@@ -732,7 +668,7 @@ nav ul li a:hover {
 .def-text {
   font-family: 'Merriweather';
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
   text-align: justify;
   width: 876px;
   margin: 13px 0 26px 27px;
